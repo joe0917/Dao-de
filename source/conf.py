@@ -26,7 +26,9 @@ source_suffix = {
 # 图片路径设置
 html_static_path = ['_static']
 html_js_files = ['svg-interaction.js',]
-html_css_files = ['custom.css']
+html_css_files = [
+    'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap',
+    'custom.css']
 
 # 使用系统字体回退方案
 html_theme_options = {
