@@ -27,10 +27,10 @@ source_suffix = {
 html_static_path = ['_static']
 html_js_files = ['svg-interaction.js',]
 html_css_files = [
-    'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap',
+    'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap',
     'custom.css']
 
 # 使用系统字体回退方案
 html_theme_options = {
-    'font_family': "'Noto Sans SC', -apple-system, 'STSong', 'SimSun', sans-serif",
+    'font_family': "'Noto Sans TC', -apple-system, 'STSong', 'SimSun', sans-serif",
 }
