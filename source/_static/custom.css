@@ -8,3 +8,26 @@
 body {
     font-family: 'CustomChinese', serif;
 }
+
+/* 只对正文段落应用两端对齐 */
+article p {
+    text-align: justify;
+    text-justify: inter-ideograph;
+
+    /* 优化中文排版 */
+    line-height: 1.8;
+    margin-bottom: 1em;
+    text-indent: 2em; /* 首行缩进2字符 */
+}
+
+/* 排除不适合两端对齐的元素 */
+article p code,
+article p a,
+article table,
+article li,
+article .caption,
+article .highlight,
+article .admonition {
+    text-align: left !important;
+    text-justify: auto !important;
+}
