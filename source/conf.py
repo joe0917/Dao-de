@@ -32,5 +32,5 @@ html_css_files = [
 
 # 使用系统字体回退方案
 html_theme_options = {
-    'font_family': "'STSong', 'SimSun', serif",
+    'font_family': "'Noto Sans SC', -apple-system, 'STSong', 'SimSun', sans-serif",
 }
