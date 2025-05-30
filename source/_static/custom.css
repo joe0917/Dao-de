@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'CustomChinese';
-    src: local('SimSun'),
-         local('STSong');
-    unicode-range: U+4E00-9FFF;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
 body {
-    font-family: 'CustomChinese', serif;
+    font-family: 'Noto Sans SC', sans-serif;
 }
