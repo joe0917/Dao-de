@@ -1,4 +1,10 @@
-.responsive-svg {
-    max-width: 100%;
-    height: auto;
+@font-face {
+    font-family: 'CustomChinese';
+    src: local('SimSun'),
+         local('STSong');
+    unicode-range: U+4E00-9FFF;
+}
+
+body {
+    font-family: 'CustomChinese', serif;
 }
